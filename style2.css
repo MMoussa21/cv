@@ -1,0 +1,22 @@
+input {
+  margin: 2px 0 5px 5px;
+  border-radius: 8px;
+  padding: 3px;
+  text-align: center;
+}
+textarea {
+  border-radius: 8px;
+}
+label {
+  margin: 2px 0 5px 5px;
+}
+
+body {
+  background: url("images/image.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-size: 14px;
+  line-height: 1.5;
+}

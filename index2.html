@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontakt mich</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body class="saturate">
+    <p>Gerne können Sie mich durch die folgende Forum kontaktieren</p>
+    <form action="mailto:m.moussa@ratiosoftware.de" method="POST">
+      <table>
+        <tr>
+          <td><label>Name :</label></td>
+          <td>
+            <input
+              type="text"
+              width="7"
+              height="18"
+              placeholder="Your Name"
+              id="inname"
+              name="yourname"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label>E-Mail:</label></td>
+          <td>
+            <input type="email" placeholder="Your E-mail" id="inemail" /><br />
+          </td>
+        </tr>
+        <tr>
+          <td><label>Password:</label></td>
+          <td>
+            <input type="password" placeholder="Your Password" /> <br /><br />
+          </td>
+        </tr>
+      </table>
+      <input type="radio" id="male" />
+      <label for="">Male</label>
+      <input type="radio" id="femal" />
+      <label>Femal</label><br /><br />
+      <label>Write here your Message</label><br />
+      <textarea name="textarea" cols="30" rows="5"></textarea><br />
+      <input type="file" /><br /><br />
+      <input type="date" name="date" /><br /><br />
+      <input type="range" /><br /><br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>

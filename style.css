@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(206, 191, 209);
+}
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+#fb {
+  max-width: 25px;
+  max-height: 40px;
+}
+
+#allPage {
+  margin-left: 50px;
+}
+#inname,
+#inemail {
+  margin: 5px 0 5px 7px;
+}
+#arbeit {
+  padding: 5px;
+  border-collapse: separate;
+  border-spacing: 20px 10px;
+}
+#skills {
+  border-collapse: separate;
+  border-spacing: 30px 15px;
+}
